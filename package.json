@@ -1,0 +1,41 @@
+{
+    "name": "eslint-plugin-neverblued",
+    "version": "1.0.0",
+    "description": "Sophisticated code formatting ESLint plugin.",
+    "keywords": [
+        "eslint",
+        "eslintplugin",
+        "eslint-plugin",
+        "formatting",
+        "sophisticated"
+    ],
+    "license": "ISC",
+    "author": {
+        "name": "Dmytro Pinskyi",
+        "email": "neverblued@gmail.com",
+        "url": "https://neverblued.info/"
+    },
+    "homepage": "https://neverblued.info/software/eslint",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/neverblued/eslint-plugin-neverblued"
+    },
+    "bugs": "https://github.com/neverblued/eslint-plugin-neverblued/issues",
+    "dependencies": {
+        "eslint": "latest",
+        "requireindex": "latest"
+    },
+    "peerDependencies": {
+        "eslint": ">=7"
+    },
+    "devDependencies": {
+        "mocha": "latest"
+    },
+    "scripts": {
+        "test": "mocha tests --recursive"
+    },
+    "main": "lib/index.js",
+    "engines": {
+        "node": ">=10"
+    }
+}
