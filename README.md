@@ -1,6 +1,7 @@
 # eslint-plugin-neverblued
 
-Sophisticated code formatting [ESLint](http://eslint.org) plugin.
+Sophisticated code formatting [ESLint](http://eslint.org) plugin
+provides a consistent space outside parentheses and brackets.
 
 ## Installation
 
