@@ -34,14 +34,21 @@ ruleTester.run ('space-outside', rule, {
             output: "foo (42) .bar",
         },
 
-        // TODO find out why "foo (42 ).bar"
-        // {
-        //     code: "foo (42).bar",
-        //     errors: [
-        //         { message: "There must be a space after this closing mark." },
-        //     ],
-        //     output: "foo (42) .bar",
-        // },
+        {
+            code: "foo (42).bar",
+            errors: [
+                { message: "There must be a space after this closing mark." },
+            ],
+            output: "foo (42) .bar",
+        },
+
+        {
+            code: "foo (42 ) .bar",
+            errors: [
+                { message: "There must be no space before this closing mark." },
+            ],
+            output: "foo (42) .bar",
+        },
 
     ],
 
