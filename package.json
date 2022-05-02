@@ -1,6 +1,6 @@
 {
     "name": "eslint-plugin-neverblued",
-    "version": "1.3.0",
+    "version": "1.4.0",
     "description": "Sophisticated code formatting ESLint plugin.",
     "keywords": [
         "eslint",
