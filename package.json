@@ -18,7 +18,7 @@
     "homepage": "https://neverblued.info/software/eslint",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/neverblued/eslint-plugin-neverblued"
+        "url": "git+https://github.com/neverblued/eslint-plugin-neverblued.git"
     },
     "bugs": "https://github.com/neverblued/eslint-plugin-neverblued/issues",
     "dependencies": {
